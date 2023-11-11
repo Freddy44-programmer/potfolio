@@ -36,6 +36,15 @@ header{
 
 } 
 
+header img {
+  max-width: 100%;
+  max-height: 70px;
+  height: auto;
+  filter: invert(1);
+  color: white;
+}
+
+
 #menu li{
  
     list-style: none;
@@ -51,6 +60,8 @@ header{
     font-size: 20px;
     cursor: pointer;
 }
+
+
 
 section {
     width: 100%;
