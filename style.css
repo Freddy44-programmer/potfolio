@@ -63,6 +63,54 @@ nav a {
 }
 
 
+#nav-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95); 
+  z-index: 1000; 
+
+#nav-popup #menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#nav-popup #menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-popup #menu ul li {
+  margin-bottom: 15px;
+}
+
+#nav-popup #menu a {
+  text-decoration: none;
+  color: #333; 
+  font-size: 18px;
+  
+}
+
+}
+
+
+#menu.collapsed {
+  background-color: transparent;
+  
+}
+
+#menu.collapsed a {
+  
+  color: #548e87; 
+}
+
+
 #menu li{
  
     list-style: none;
@@ -484,23 +532,71 @@ h5{
 }
 
 .skill-per.html {
-  width: 50%;
-  animation-delay: 0.1s;
-}
-
-.skill-per.css {
   width: 70%;
   animation-delay: 0.1s;
 }
 
-.skill-per.javascript {
+.skill-per.css {
+  width: 50%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.bootstrap {
+  width: 55%;
+  animation-delay: 0.2s;
+}
+
+.skill-per.angular {
   width: 50%;
   animation-delay: 0.2s;
 }
 
-.skill-per.nodejs {
+.skill-per.typescript {
      
-  width: 30%;
+  width: 40%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.javascript {
+     
+  width: 40%;
+  animation-delay: 0.3s;
+}
+
+
+.skill-per.java{
+     
+  width: 80%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.springboot {
+     
+  width: 70%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.csharp {
+     
+  width: 60%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.net {
+     
+  width: 50%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.mysql {
+     
+  width: 60%;
+  animation-delay: 0.3s;
+}
+
+.skill-per.sql {
+     
+  width: 50%;
   animation-delay: 0.3s;
 }
 
